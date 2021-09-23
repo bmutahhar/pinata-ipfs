@@ -1,0 +1,20 @@
+{
+  "name": "ipfs-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Mutahhar bin Muzaffar",
+  "license": "ISC",
+  "dependencies": {
+    "@pinata/sdk": "^1.1.23",
+    "dotenv": "^10.0.0",
+    "fast-csv": "^4.3.6",
+    "ipfs": "^0.58.2",
+    "ipfs-http-client": "^52.0.2",
+    "nodemon": "^2.0.12"
+  }
+}
